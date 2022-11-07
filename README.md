@@ -1,9 +1,10 @@
 <!---
 Links
 -->
-[Start For Free]: https://jfrog.co/binary-9232#saas "https://jfrog.co/binary-9232#saas"
+[Start For Free]: https://jfrog.co/devops-6693#saas "https://jfrog.co/devops-6693"
 [Access Tokens]: https://www.jfrog.com/confluence/display/JFROG/Access+Tokens
 [awesome-micro-npm-packages]:https://github.com/parro-it/awesome-micro-npm-packages
+[jfrog-npm-tools]:https://github.com/jfrog/jfrog-npm-tools
 [frogbot]: https://github.com/jfrog/frogbot
 [IDEA Plugin]:https://www.jfrog.com/confluence/display/JFROG/JFrog+IntelliJ+IDEA+Plugin
 [Docker Desktop Extension]:https://jfrog.com/blog/get-peace-of-mind-about-security-when-deploying-containers-from-docker-desktop/
@@ -31,6 +32,7 @@ Links
 *  [Frogbot](#frogbot)
 *  [IDE plugins](#ide)
 *  [Docker Desktop Extension](#docker)
+*  [jfrog-npm-tools](#npm-tools)
 
   
 
@@ -201,3 +203,18 @@ The JFrog Xray integration with the Docker Desktop Extension actually allows you
 
 More information about  [Docker Desktop Extension]
 
+### JFrog NPM Tools <a id='npm-tools'></a>
+
+A collection of tools to help audit your NPM dependencies for suspicious packages or
+continuously monitor dependencies for future security events.
+
+The tools:
+
+1. [npm-secure-install](npm-secure-installer/README.md) - Validate dependencies are locked down
+   to the exact versions before installation of global tools
+2. [package-checker](package_checker/README.md) - Python command line tool that checks a
+   dependency string for what will actually be installed and whether it is suspicious
+3. [npm_issues_statistics](npm_issues_statistics/README.md) - Analyzes github comments to find
+   unusual activity that might correlate to compromised dependency
+
+More information about  [jfrog-npm-tools]
