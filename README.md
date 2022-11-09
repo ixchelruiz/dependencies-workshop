@@ -63,13 +63,15 @@ On the **Verification Required** email:
 Go to the ```<platform URL>``` and log in with the ```username```
 
 ---
-**NOTE**
 
-:bulb:
+**NOTE** :bulb:
 
-Create a new __Admin__ user is a great idea! 
+Create a new __Admin__ user is a great idea!
+
+:card_index: **User** *Menu* > **New User**
 
 ---
+
 
 #### 2. Create NPM repository <a id='repo'></a>
 
@@ -78,9 +80,11 @@ Create a new __Admin__ user is a great idea!
 * Create new Repository
 * Repository prefix : **workshop**  :pencil: *this is just a suggestion*
 
+---
+
 ##### Configure ~/.npmrc <a id='config-npm'></a>
 
-**Main** *Tab* > **Set Me up** 
+:card_index: **User** *Menu* > **Set Me up** 
 
 * Select the *NPM repository* i.e. virtual repository ```<repository_prefix>```
 * On the **Configure** *Tab*   copy the snippet to your ~/.npmrc file.
@@ -89,9 +93,12 @@ Create a new __Admin__ user is a great idea!
 
 :fire: *It's your* ```_auth``` *information, be careful!*
 
+---
+
 #### Auth & Tokens <a id='auth'></a>
 
-**Administration** *Tab* > **User Management** > **Access Tokens**
+:card_index: **Platform Configuration** *Menu* > **User Management** > **Access Tokens**
+---
 
 ##### Generate Token <a id='token'></a>
 Token scope: **User**
@@ -102,6 +109,8 @@ Service: **All**
 
 :fire: *The token information won't be available after the window is closed, keep it available until you configure* ```jfrog-cli```  
 
+---
+
 #### Integrations (jfrog-cli) <a id='cli'></a>
 
 **Main** *Tab* > **Integrations** > **jfrog-cli**
@@ -111,6 +120,9 @@ i.e.
 ```
 curl -fL "https://install-cli.jfrog.io" | sh; jf setup <user_context>
 ```
+
+---
+
 ##### Configure (jfrog-cli) <a id='config-cli'></a>
 :pencil:
 You will need:
@@ -119,6 +131,7 @@ You will need:
   + Publish use:  ```<repository_prefix>-local```
   + Resolving use: ```<repository_prefix>-remote```
 
+---
 
 ### NPM project <a id='demo-npm'></a>
 #### Clone a NPM project <a id='demo-npm-clone'></a>
@@ -127,14 +140,20 @@ Clone a npm repo of your preference.
 
 We can use any demo found under [awesome-micro-npm-packages]
 
+---
+
 #### Install the dependencies <a id='demo-npm-install'></a>
 
 Use verbose to verify the registry in use
 ```npm install --ddd```
 
+---
+
 #### Audit <a id='demo-npm-audit'></a>
 
 All about dependencies.... 
+
+---
 
 ##### NPM Audit <a id='demo-npm-audit-npm'></a>
 Run the npm audit on the repository
@@ -151,12 +170,15 @@ npm ERR! audit Neither npm-shrinkwrap.json nor package-lock.json found: Cannot a
 npm ERR! audit Try creating one first with: npm i --package-lock-only
 ```
 
+---
+
 ##### JFrog Audit <a id='demo-npm-audit-jfrog'></a>
 
 :green_heart: Just be happy!! :green_heart:
 
 ```jf audit```
 
+---
 
 ### Frogbot <a id='frogbot'></a>
 
@@ -182,9 +204,11 @@ Frogbot uses JFrog Xray (version 3.29.0 or above is required) to scan your pull 
 
 More information about  [frogbot]
 
+---
+
 ### IDE plugins <a id='ide'></a>
 
-**Main** *Tab* > **Integrations** > **IDE plugins**
+:card_index: **Main** *Tab* > **Integrations** > **IDE plugins**
 
 #### IDE plugins: IDEA <a id='ide'></a>
 
@@ -204,6 +228,8 @@ Currently, Maven, Gradle, npm, Python and Go are supported by the plugin.
 
 More information about  [IDEA Plugin]
 
+---
+
 ### Docker Desktop Extension <a id='docker'></a>
 
 The JFrog Xray integration with the Docker Desktop Extension actually allows you to set a free tier instance and connect it automatically. After installing the JFrog extension within Docker Desktop Extensions, you can easily connect your JFrog Platform to your Docker Desktop application.
@@ -211,6 +237,8 @@ The JFrog Xray integration with the Docker Desktop Extension actually allows you
 :pencil:
 
 More information about  [Docker Desktop Extension]
+
+---
 
 ### JFrog NPM Tools <a id='npm-tools'></a>
 
