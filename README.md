@@ -1,7 +1,7 @@
 <!---
 Links
 -->
-[Start For Free]: https://jfrog.co/devops-6693#saas "https://jfrog.co/devops-6693"
+[Start For Free]: https://jfrog.co/devops-6693#saas "https://jfrog.co/devops-6693#saas"
 [Access Tokens]: https://www.jfrog.com/confluence/display/JFROG/Access+Tokens
 [awesome-micro-npm-packages]:https://github.com/parro-it/awesome-micro-npm-packages
 [jfrog-npm-tools]:https://github.com/jfrog/jfrog-npm-tools
@@ -54,7 +54,7 @@ Yet dependencies not only may introduce risks that are often overlooked, but the
 
 ### Configure your environment <a id='config-free'></a>
 
-#### Login credentials <a id='login'></a>
+#### 1. Login credentials <a id='login'></a>
 
 On the **Verification Required** email:
 * Platform URL: ```<platform url>``` :grey_exclamation:
@@ -62,7 +62,16 @@ On the **Verification Required** email:
 
 Go to the ```<platform URL>``` and log in with the ```username```
 
-#### Create NPM repository <a id='repo'></a>
+---
+**NOTE**
+
+:bulb:
+
+Create a new __Admin__ user is a great idea! 
+
+---
+
+#### 2. Create NPM repository <a id='repo'></a>
 
 **Quick Setup** > NPM 
 
