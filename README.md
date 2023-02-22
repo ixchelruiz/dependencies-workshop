@@ -1,7 +1,7 @@
 <!---
 Links
 -->
-[Start For Free]: https://jfrog.co/devops-6693#saas "https://jfrog.co/devops-6693#saas"
+[Start For Free]:  https://jfrog.co/devops-8467 "jfrog.co/devops-8467"
 [Access Tokens]: https://www.jfrog.com/confluence/display/JFROG/Access+Tokens
 [awesome-micro-npm-packages]:https://github.com/parro-it/awesome-micro-npm-packages
 [jfrog-npm-tools]:https://github.com/jfrog/jfrog-npm-tools
@@ -68,7 +68,7 @@ Go to the ```<platform URL>``` and log in with the ```username```
 
 Create a new __Admin__ user is a great idea!
 
-:card_index: **User** *Menu* > **New User**
+:card_index: **Platform Configuration** *Menu* > **User Management** > **New User**
 
 ---
 
@@ -84,7 +84,12 @@ Create a new __Admin__ user is a great idea!
 
 ##### Configure ~/.npmrc <a id='config-npm'></a>
 
-:card_index: **User** *Menu* > **Set Me up** 
+We can configure your ```NPM``` configuration with the jfrog-cli command
+```
+
+```
+
+:card_index: **Artifactory** *Menu* > **Set Me up** 
 
 * Select the *NPM repository* i.e. virtual repository ```<repository_prefix>```
 * On the **Configure** *Tab*   copy the snippet to your ~/.npmrc file.
