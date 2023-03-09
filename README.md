@@ -1,7 +1,7 @@
 <!---
 Links
 -->
-[Start For Free]:  https://jfrog.co/devops-8467 "jfrog.co/devops-8467"
+[Start For Free]:  https://jfrog.co/JSMonthly "jfrog.co/JSMonthly"
 [Access Tokens]: https://www.jfrog.com/confluence/display/JFROG/Access+Tokens
 [awesome-micro-npm-packages]:https://github.com/parro-it/awesome-micro-npm-packages
 [jfrog-npm-tools]:https://github.com/jfrog/jfrog-npm-tools
